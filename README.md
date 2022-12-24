@@ -1,9 +1,9 @@
-## Installing the Deps & Running the application (Tested using Python 3.9.0)
+## Installing the Deps & Running the application (Tested using Python 3.1.0)
 
 ```
-virtualenv -p python3 venv
+python -m venv snbl-venv
 
-source venv/bin/activate
+source snbl-venv/bin/activate
 
 pip install -r requirements.txt
 
